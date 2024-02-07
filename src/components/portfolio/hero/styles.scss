@@ -1,0 +1,30 @@
+.download-cv-block .btn-download {
+  color: white;
+  padding: 0.75rem;
+  border-radius: 5px;
+  background-color: rgb(163, 133, 100);
+  border: none;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.download-cv-block .btn-download:active,
+.download-cv-block .btn-download:visited,
+.download-cv-block .btn-download:active:first-child {
+  background-color: rgb(163, 133, 100);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-cv-block .btn-download:hover {
+  background-color: rgb(80, 66, 50);
+}
+
+.intro-block .summary {
+  font-size: 24px;
+}
+
+.intro-block .intro {
+  font-size: 3rem;
+  color: rgb(163, 133, 100);
+}

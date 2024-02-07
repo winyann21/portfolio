@@ -1,0 +1,46 @@
+[
+  {
+    "name": "HTML 5",
+    "icon": "html5.svg"
+  },
+  {
+    "name": "CSS",
+    "icon": "css.svg"
+  },
+  {
+    "name": "Sass",
+    "icon": "sass.svg"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "javascript.svg"
+  },
+  {
+    "name": "React JS",
+    "icon": "reactjs.svg"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "typescript.svg"
+  },
+  {
+    "name": "Redux",
+    "icon": "redux.svg"
+  },
+  {
+    "name": "Go",
+    "icon": "go.svg"
+  },
+  {
+    "name": "Amazon DynamoDB",
+    "icon": "amazondynamodb.svg"
+  },
+  {
+    "name": "RESTful APIs",
+    "icon": "restfulapis.svg"
+  },
+  {
+    "name": "Git",
+    "icon": "git.svg"
+  }
+]
