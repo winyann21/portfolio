@@ -21,7 +21,7 @@ const AboutPage = () => {
             const techStackIcon = `/src/assets/svgs/${techStack.icon}`;
 
             return (
-              <div key={idx}>
+              <div key={idx} className="text-center">
                 <ReactSVG src={techStackIcon} />
               </div>
             );
