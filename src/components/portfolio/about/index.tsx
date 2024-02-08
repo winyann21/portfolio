@@ -22,7 +22,7 @@ const AboutPage = () => {
 
             return (
               <div key={idx} className="text-center">
-                <Card style={{ width: "100%" }}>
+                <Card style={{ width: "20%" }}>
                   <ReactSVG src={techStackIcon} />
                 </Card>
               </div>
