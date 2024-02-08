@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import "./styles.scss";
 import techStacks from "../../../resources/tech-stacks/tech-stacks.json";
 import { ReactSVG } from "react-svg";
@@ -22,7 +22,9 @@ const AboutPage = () => {
 
             return (
               <div key={idx} className="text-center">
-                <ReactSVG src={techStackIcon} />
+                <Card style={{ width: "100%" }}>
+                  <ReactSVG src={techStackIcon} />
+                </Card>
               </div>
             );
           })}
