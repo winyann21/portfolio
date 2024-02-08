@@ -1,3 +1,17 @@
 .about-section {
   background-color: rgb(250, 247, 243);
 }
+
+.tech-stacks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 15px;
+  justify-items: center;
+}
+
+.tech-stack-item {
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  align-self: center;
+}

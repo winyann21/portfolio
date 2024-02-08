@@ -8,20 +8,24 @@
     "icon": "css.svg"
   },
   {
-    "name": "Sass",
-    "icon": "sass.svg"
-  },
-  {
     "name": "JavaScript",
     "icon": "javascript.svg"
   },
   {
-    "name": "React JS",
-    "icon": "reactjs.svg"
-  },
-  {
     "name": "TypeScript",
     "icon": "typescript.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "bootstrap.svg"
+  },
+  {
+    "name": "Sass",
+    "icon": "sass.svg"
+  },
+  {
+    "name": "React JS",
+    "icon": "reactjs.svg"
   },
   {
     "name": "Redux",
