@@ -5,7 +5,7 @@ import myImage from "../../../assets/imgs/me.png";
 import myCV from "../../../assets/pdfs/CV_Sherwin_Romero.pdf";
 import "./styles.scss";
 
-const HeroContent = () => {
+const HeroSection = () => {
   return (
     <section className="hero-section pt-5 mb-5">
       <Container className="d-md-flex align-items-center">
@@ -38,4 +38,4 @@ const HeroContent = () => {
   );
 };
 
-export default HeroContent;
+export default HeroSection;

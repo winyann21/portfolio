@@ -1,14 +1,16 @@
 import React from "react";
-import PortfolioHeader from "../../components/portfolio/header";
-import HeroContent from "../../components/portfolio/hero";
-import AboutPage from "../../components/portfolio/about";
+import HeaderSection from "../../components/portfolio/header";
+import HeroSection from "../../components/portfolio/hero";
+import TechStackSection from "../../components/portfolio/tech-stack";
+import ProjectsSection from "../../components/portfolio/projects";
 
 const Portfolio = () => {
   return (
     <div>
-      <PortfolioHeader />
-      <HeroContent />
-      <AboutPage />
+      <HeaderSection />
+      <HeroSection />
+      <TechStackSection />
+      <ProjectsSection />
     </div>
   );
 };

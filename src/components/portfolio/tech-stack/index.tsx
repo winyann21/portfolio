@@ -1,20 +1,21 @@
-import { Card, Container, OverlayTrigger, Tooltip } from "react-bootstrap";
-import "./styles.scss";
-import techStacks from "../../../resources/tech-stacks/tech-stacks.json";
+import React, { useEffect } from "react";
+import { Container } from "react-bootstrap";
 import { ReactSVG } from "react-svg";
+import techStacks from "../../../resources/tech-stacks/tech-stacks.json";
+import "./styles.scss";
 
 interface TechStackInterface {
   name: string;
   icon: string;
 }
 
-const AboutPage = () => {
+const TechStackSection = () => {
   return (
-    <section className="about-section mb-5 py-5">
+    <section id="tech-stack" className="tech-stack-section mb-5 py-5">
       <Container>
         <div className="tech-stack-title w-100 text-center mb-5">
-          <h2>My Tech Stack</h2>
-          <p>Explore My Tech Universe.</p>
+          <h1>My Tech Stack</h1>
+          <p>Explore My Tech Universe</p>
         </div>
         <div className="tech-stacks">
           {techStacks.map((techStack: TechStackInterface, idx) => {
@@ -42,4 +43,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default TechStackSection;

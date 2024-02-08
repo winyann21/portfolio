@@ -3,7 +3,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const PortfolioHeader = () => {
+const HeaderSection = () => {
   return (
     <header>
       <Navbar>
@@ -19,7 +19,7 @@ const PortfolioHeader = () => {
             </h1>
           </Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#about">ABOUT</Nav.Link>
+            <Nav.Link href="#tech-stack">TECH STACK</Nav.Link>
             <Nav.Link href="#projects">PROJECTS</Nav.Link>
             <Nav.Link href="#contact">CONTACT</Nav.Link>
           </Nav>
@@ -40,4 +40,4 @@ const PortfolioHeader = () => {
   );
 };
 
-export default PortfolioHeader;
+export default HeaderSection;
