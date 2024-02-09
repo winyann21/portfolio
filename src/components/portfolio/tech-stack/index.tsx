@@ -18,7 +18,7 @@ const TechStackSection = () => {
         </div>
         <div className="tech-stacks">
           {techStacks.map((techStack: TechStackInterface, idx) => {
-            const techStackIcon = `/src/assets/svgs/${techStack.icon}`;
+            const techStackIcon = `/public/svgs/${techStack.icon}`;
 
             return (
               <div key={idx} className="tech-stack-item">
