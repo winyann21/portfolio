@@ -1,12 +1,16 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import "./styles.scss";
 
 const HeaderSection = () => {
+  const [expanded, setExpanded] = useState<boolean>(false);
+
   return (
-    <header>
-      <Navbar>
+    <header id="home">
+      <Navbar expand="md" expanded={expanded} className="mb-4">
         <Container className="mt-3">
           <Navbar.Brand href="#home">
             <h1
@@ -18,7 +22,32 @@ const HeaderSection = () => {
               win
             </h1>
           </Navbar.Brand>
-          <Nav className="mr-auto">
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => setExpanded(!expanded)}
+          >
+            <FontAwesomeIcon icon={faBars} size="lg" />
+          </Navbar.Toggle>
+          <Navbar.Collapse className="justify-content-between">
+            <Nav className="mr-auto">
+              <Nav.Link href="#tech-stack">TECH STACK</Nav.Link>
+              <Nav.Link href="#projects">PROJECTS</Nav.Link>
+              <Nav.Link href="#contact">CONTACT</Nav.Link>
+            </Nav>
+            <Nav className="nav-links ml-auto flex-row">
+              <Nav.Link
+                href="https://linkedin.com/in/sherwin-romero"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedin} size="lg" />
+              </Nav.Link>
+              <Nav.Link href="mailto:it.sherwinromero@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+
+          {/* <Nav className="mr-auto">
             <Nav.Link href="#tech-stack">TECH STACK</Nav.Link>
             <Nav.Link href="#projects">PROJECTS</Nav.Link>
             <Nav.Link href="#contact">CONTACT</Nav.Link>
@@ -33,7 +62,7 @@ const HeaderSection = () => {
             <Nav.Link href="mailto:it.sherwinromero@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} size="lg" />
             </Nav.Link>
-          </Nav>
+          </Nav> */}
         </Container>
       </Navbar>
     </header>

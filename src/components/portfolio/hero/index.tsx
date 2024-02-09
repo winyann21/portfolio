@@ -7,7 +7,7 @@ import "./styles.scss";
 
 const HeroSection = () => {
   return (
-    <section className="hero-section pt-5 mb-5">
+    <section id="about-me" className="hero-section pt-5 mb-5">
       <Container className="d-md-flex align-items-center">
         {/* CONTENT LEFT */}
         <Col md={6}>

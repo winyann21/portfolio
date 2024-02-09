@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import { ReactSVG } from "react-svg";
 import techStacks from "../../../resources/tech-stacks/tech-stacks.json";
@@ -22,15 +21,6 @@ const TechStackSection = () => {
             const techStackIcon = `/src/assets/svgs/${techStack.icon}`;
 
             return (
-              // <OverlayTrigger
-              //   key={idx}
-              //   overlay={<Tooltip placement="top">{techStack.name}</Tooltip>}
-              // >
-              //   <div className="tech-stack-item">
-              //     <ReactSVG src={techStackIcon} />
-              //   </div>
-              // </OverlayTrigger>
-
               <div key={idx} className="tech-stack-item">
                 <ReactSVG src={techStackIcon} />
                 <p className="mt-5">{techStack.name}</p>

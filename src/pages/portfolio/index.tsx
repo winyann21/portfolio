@@ -1,8 +1,9 @@
-import React from "react";
+import ContactSection from "../../components/portfolio/contact";
+import FooterSection from "../../components/portfolio/footer";
 import HeaderSection from "../../components/portfolio/header";
 import HeroSection from "../../components/portfolio/hero";
-import TechStackSection from "../../components/portfolio/tech-stack";
 import ProjectsSection from "../../components/portfolio/projects";
+import TechStackSection from "../../components/portfolio/tech-stack";
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,8 @@ const Portfolio = () => {
       <HeroSection />
       <TechStackSection />
       <ProjectsSection />
+      <ContactSection />
+      <FooterSection />
     </div>
   );
 };
