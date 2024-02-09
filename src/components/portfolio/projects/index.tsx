@@ -21,6 +21,7 @@ const ProjectsSection = () => {
           <p>Projects I've worked on</p>
         </div>
         <div className="projects-content d-md-flex align-items-center">
+          {/* TODO: make it dynamic if projects are lot! */}
           {/* SAASCONSOLE */}
           <Col md={7} className="mr-md-3">
             {/* <img
