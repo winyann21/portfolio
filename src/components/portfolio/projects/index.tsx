@@ -119,7 +119,7 @@ const ProjectsSection = () => {
         </div>
 
         <div className="more-projects-to-come text-center mt-5">
-          <p style={{ fontSize: "18px" }}>Future projects in coming soon...</p>
+          <p style={{ fontSize: "18px" }}>Future projects coming soon...</p>
         </div>
       </Container>
     </section>
