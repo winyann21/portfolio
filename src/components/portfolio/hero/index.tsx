@@ -14,7 +14,7 @@ const HeroSection = () => {
           <div className="intro-block">
             <h1 className="intro">Hi! I'm Sherwin Romero 👋</h1>
             <p className="summary">
-              An experienced software engineer specializing in web development,
+              An experienced software developer specializing in web development,
               where I've honed my skills through hands-on experience and project
               work.
             </p>
