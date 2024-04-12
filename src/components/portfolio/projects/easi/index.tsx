@@ -1,8 +1,9 @@
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Carousel, Col } from "react-bootstrap";
 import Easi1 from "../../../../assets/imgs/easi/1.jpg";
+import Easi10 from "../../../../assets/imgs/easi/10.jpg";
 import Easi2 from "../../../../assets/imgs/easi/2.jpg";
 import Easi3 from "../../../../assets/imgs/easi/3.jpg";
 import Easi4 from "../../../../assets/imgs/easi/4.jpg";
@@ -11,8 +12,6 @@ import Easi6 from "../../../../assets/imgs/easi/6.jpg";
 import Easi7 from "../../../../assets/imgs/easi/7.jpg";
 import Easi8 from "../../../../assets/imgs/easi/8.jpg";
 import Easi9 from "../../../../assets/imgs/easi/9.jpg";
-import Easi10 from "../../../../assets/imgs/easi/10.jpg";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const EASI = () => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
