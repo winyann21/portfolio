@@ -1,11 +1,8 @@
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
-import { Carousel, Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-import "./styles.scss";
-import SaaSConsole from "./saasconsole";
 import EASI from "./easi";
+import SaaSConsole from "./saasconsole";
+import "./styles.scss";
 
 const ProjectsSection = () => {
   return (
