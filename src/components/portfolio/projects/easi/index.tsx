@@ -12,6 +12,7 @@ import Easi6 from "../../../../assets/imgs/easi/6.jpg";
 import Easi7 from "../../../../assets/imgs/easi/7.jpg";
 import Easi8 from "../../../../assets/imgs/easi/8.jpg";
 import Easi9 from "../../../../assets/imgs/easi/9.jpg";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const EASI = () => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -318,13 +319,22 @@ const EASI = () => {
             .
           </p>
           <p></p>
-          <div className="mt-5 text-end visit-website-block">
+          <div className="mt-5 mb-4 text-end visit-website-block">
             <a
               className="btn-visit-website"
               href="https://github.com/winyann21/easi_app"
               target="_blank"
             >
               <FontAwesomeIcon icon={faGithub} /> Visit Repository
+            </a>
+          </div>
+          <div className="text-end visit-website-block">
+            <a
+              className="btn-visit-website"
+              href="https://drive.google.com/file/d/1sKXobrqjJB965Lkc1xrr-_aROrY8i4Nv/view?usp=sharing"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faDownload} /> Download APK
             </a>
           </div>
         </div>
