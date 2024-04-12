@@ -1,9 +1,14 @@
-.img-saasconsole {
+.img-in-carousel {
   border-radius: 10px;
 }
 .carousel {
   border-radius: 10px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+//for gap
+.projects > *:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 /* Define a fade animation */
